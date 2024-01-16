@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "hub-html-1.5",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "hub-html-1.5"
+	}
+}
