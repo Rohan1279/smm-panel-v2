@@ -22,6 +22,46 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
 
+        <!-- Style -->
+        <style>
+			.swing-in-top-fwd {
+			-webkit-animation: swing-in-top-fwd 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: swing-in-top-fwd 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}	
+ @-webkit-keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+            transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+            transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    opacity: 1;
+  }
+}
+
+		</style>
 		<title>RocketSocialBoost</title>
 		<link rel="icon" type="image/x-icon" href="./assets/images/demo/saas/logo/rocket.png">
 	</head>
@@ -263,7 +303,7 @@
 					</section>
 					<!-- End Banner -->
                     <!-- Start Pricing -->
-                    <div class="lqd-tabs lqd-tabs-style-9 lqd-tabs-style-9-alt2 flex flex-col lqd-nav-underline- lqd-tabs-nav-items-not-expanded" data-tabs-options="{&quot;trigger&quot;: &quot;click&quot;}">
+                    <div class="swing-in-top-fwd lqd-tabs lqd-tabs-style-9 lqd-tabs-style-9-alt2 flex flex-col lqd-nav-underline- lqd-tabs-nav-items-not-expanded" data-tabs-options="{&quot;trigger&quot;: &quot;click&quot;}">
 						<!-- SOCIAL ICONS GOES HERE -->
                         <nav class="lqd-tabs-nav-wrap mb-2/5em">
                             <ul class="reset-ul lqd-tabs-nav flex items-center flex-wrap justify-center relative" role="tablist">
